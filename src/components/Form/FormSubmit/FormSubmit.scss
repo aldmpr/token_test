@@ -1,0 +1,11 @@
+.TokenFormSubmitted {
+  &__item {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

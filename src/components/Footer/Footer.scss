@@ -1,0 +1,35 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400;
+
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.links {
+  &__item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-right: 30px;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #800505;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

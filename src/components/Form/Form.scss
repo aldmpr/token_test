@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.TokenForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000000;
+
+  &__title {
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.form {
+  &__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+    &__name {
+      font-size: 12px;
+      color: #727272;
+      margin-bottom: 5px;
+    }
+
+    &__label {
+      cursor: pointer;
+    }
+
+    &__select {
+      width: max-content;
+      border: none;
+    }
+
+    &__checkbox {
+      position: absolute;
+      opacity: 0;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    &__text {
+      position: relative;
+      left: 25px;
+      font-weight: 500;
+    }
+
+    &__checkbox:checked ~ &__checkmark {
+      background-color: #c50000;
+      border: 2px solid #bbbbbb;
+    }
+
+    &__checkbox:checked ~ &__checkmark:after {
+      display: block;
+    }
+
+    &__checkmark {
+      position: absolute;
+      height: 13px;
+      width: 13px;
+      background-color: #ffffff;
+      border: 1px solid #bbbbbb;
+
+      &:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+    }
+  }
+
+  &__button {
+    max-width: 130px;
+    min-height: 36px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    background-color: #c50000;
+    border: none;
+    border-radius: 48px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #800505;
+    }
+  }
+  
+  &__supply {
+    position: relative;
+    margin-bottom: 60px;
+  }
+}
