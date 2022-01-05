@@ -1,9 +1,13 @@
-# React TypeScript Starter Pack
+# Token Test
+   - [Design](https://www.figma.com/file/BYKmsglW8pUgzm3ZV5W3gi/Web-Frontend-Test-Taks?node-id=0%3A1)
+   - [Demo](https://aldmpr.github.io/token_test/)
 
-To use this template click `Use this template`
+## Installing
 
-### Available Scripts
+   - Fork and clone this repository
+   - Run npm install in your terminal
+   - Run npm start
 
-`Deploy` - available to deploy your application to gh-pages
+## Troubleshooting
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+Any advise for common problems or issues. For any contributing or problem solving you could find me [here](https://t.me/prokopovich)
